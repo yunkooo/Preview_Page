@@ -4,6 +4,7 @@ Preview_Page
 
 # 커밋 컨벤션
 
+HTML : 마크업을 수정한 경우
 Feat : 새로운 기능을 추가할 경우
 Fix : 버그를 고친 경우
 Design : CSS 등 사용자 UI 디자인 변경
