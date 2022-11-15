@@ -4,36 +4,43 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
     <title>정글 시네마 영화 목록</title>
   </head>
   <body>
-    <article>
-      <h1>정글 시네마 영화 목록</h1>
+    <article id="article-movie">
+      <h1 class="txt-title">정글 시네마 영화 목록</h1>
 
-      <ul>
+      <ul class="list-page">
         <li>
-          <button>현재상영영화</button>
+          <button class="btn-page">현재상영영화</button>
         </li>
         <li>
-          <button>개봉예정영화</button>
+          <button class="btn-page">개봉예정영화</button>
         </li>
         <li>
-          <button>박스오피스</button>
+          <button class="btn-page">박스오피스</button>
         </li>
       </ul>
-      <section>
-        <h2>현재상영영화</h2>
+      <section class="section-movie-list">
+        <h2 class="ir">현재상영영화</h2>
         <ul>
           <li>
-            <img
-              src="./src/img/파이널 코딩테스트_1번_강의자료/포스터_위니브월드.png"
-              alt=""
-            />
-            <h3>위니브 월드 : 새로운시대</h3>
-            <p><strong>개요</strong>판타지</p>
-            <p><strong>평점</strong>9.05</p>
-            <p><strong>개봉</strong><date>2021.03.27</date></p>
-            <p><strong>출연</strong>라이캣, 소울곰, 개리씨</p>
+            <div class="li-poster-desc">
+              <img
+                class="img-poster"
+                src="./src/img/파이널 코딩테스트_1번_강의자료/포스터_위니브월드.png"
+                alt=""
+              />
+              <h3>파이썬 부트캠프</h3>
+              <!-- <div class="txt-desc"> -->
+              <p class="test"><strong>개요</strong>판타지</p>
+              <p class="test2"><strong>평점</strong>9.05</p>
+              <!-- </div> -->
+              <p><strong>개봉</strong><date>2021.03.27</date></p>
+              <p><strong>출연</strong>라이캣, 소울곰, 개리씨</p>
+            </div>
             <button>예매하기</button>
             <button>예고편</button>
           </li>
@@ -44,15 +51,19 @@
       <p></p>
       <ul>
         <li>
-          <a href="./src/img/SNS_아이콘/facebook.png"
-            ><img src="" alt=""
+          <a href="#"
+            ><img src="./src/img/SNS_아이콘/twitter.png" alt=""
           /></a>
         </li>
         <li>
-          <a href="#"><img src="#" alt="" /></a>
+          <a href="#"
+            ><img src="./src/img/SNS_아이콘/instagram.png" alt=""
+          /></a>
         </li>
         <li>
-          <a href="#"><img src="#" alt="" /></a>
+          <a href="#"
+            ><img src="./src/img/SNS_아이콘/facebook.png" alt=""
+          /></a>
         </li>
       </ul>
 

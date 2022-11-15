@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap");
+
+/* 유틸리티 스타일 */
+
+:root {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 10px;
+}
+
+.ir {
+  position: absolute;
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+button {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* 레이아웃 스타일 */
+
+#article-movie {
+  width: 1060px;
+  height: 1170px;
+  background: #f2f2f2;
+  margin: 91px auto 135px;
+  padding: 41px 28px 31px;
+  border-radius: 15px;
+}
+
+#article-movie .section-movie-list {
+  width: 1003px;
+  height: 962px;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 26px 27px 30px;
+  margin-top: 23px;
+}
+
+/* 아티클 요소 스타일 */
+
+.txt-title {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 700;
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.txt-title::after {
+  content: "";
+  width: 650px;
+  height: 2px;
+  display: block;
+  background: #bdbdbd;
+  margin: 37px auto 18px;
+}
+
+.list-page {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 50px;
+}
+
+.list-page button {
+  padding: 5px;
+}
+
+.btn-page {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #828282;
+}
+
+.section-movie-list ul li {
+  width: 220px;
+  border: 1px solid #bdbdbd;
+  border-radius: 10px;
+  /* box-shadow: 0 0 2px rgb(0, 0, 3); */
+  box-shadow: -2px 2px 5px -1px rgba(0, 0, 0, 0.77),
+    2px -2px 5px -1px rgba(168, 163, 163, 0.77);
+}
+
+.section-movie-list .img-poster {
+  width: 180px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.section-movie-list .li-poster-desc {
+  margin: 19px 20px 18px;
+  overflow: hidden;
+}
+
+.section-movie-list h3 {
+  font-family: "Noto Sans KR";
+  font-weight: 900;
+  font-size: 1.6rem;
+  padding: 11px 0 12px;
+}
+
+.txt-desc {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.section-movie-list p {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #000;
+}
+
+.li-poster-desc p {
+  margin: 2px 0px;
+  display: float;
+  float: left;
+}
+
+.li-poster-desc .test2 {
+  display: float;
+  float: right;
+}
+
+.section-movie-list p strong {
+  font-weight: 400;
+  color: #828282;
+  margin-right: 5px;
+}
+
+/* .section-movie-list p:nth-last-of-type(2) {
+  margin: 5px 0px;
+} */
