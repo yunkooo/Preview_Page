@@ -31,4 +31,14 @@ Remove : 파일을 삭제하는 작업만 수행한 경우
 
 - IE 제외
 
-# 리팩토링 시
+# 💥 issue
+
+## ❗️ li 내 요소를 스크린리더가 읽지 않는 문제 발견
+
+- Solution : tabindex를 사용하여 스크린리더가 tab을 인식하도록 설정하였습니다.
+- 주의사항 : tabindex를 0보다 큰 값을 줄 경우 논리적 순서가 바뀜으로 항상 0으로 사용해야 합니다.
+- [tabindex MDN 공식문서](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex)
+
+- [tabindex caniuse](https://caniuse.com/?search=tabindex)
+
+- [ARIA:list role MDN 공식문서](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/list_role)

@@ -9,6 +9,10 @@
   font-size: 10px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .ir {
   position: absolute;
   clip-path: inset(50%);
@@ -42,6 +46,16 @@ button {
   border-radius: 15px;
   padding: 26px 27px 30px;
   margin-top: 23px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 213px;
+  background-color: #f2f2f2;
+  position: relative;
 }
 
 /* 아티클 요소 스타일 */
@@ -80,13 +94,18 @@ button {
   color: #828282;
 }
 
+.section-movie-list ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 .section-movie-list ul li {
   width: 220px;
   border: 1px solid #bdbdbd;
   border-radius: 10px;
-  /* box-shadow: 0 0 2px rgb(0, 0, 3); */
-  box-shadow: -2px 2px 5px -1px rgba(0, 0, 0, 0.77),
-    2px -2px 5px -1px rgba(168, 163, 163, 0.77);
+  box-shadow: 0px 0px 5px #bdbdbd;
+  background-color: #f2f2f2;
+  overflow: hidden;
 }
 
 .section-movie-list .img-poster {
@@ -96,8 +115,9 @@ button {
 }
 
 .section-movie-list .li-poster-desc {
-  margin: 19px 20px 18px;
+  padding: 19px 20px 10px;
   overflow: hidden;
+  background-color: #fff;
 }
 
 .section-movie-list h3 {
@@ -120,14 +140,25 @@ button {
 }
 
 .li-poster-desc p {
-  margin: 2px 0px;
+  margin-bottom: 8px;
   display: float;
   float: left;
 }
 
-.li-poster-desc .test2 {
+.li-poster-desc .txt-rating {
   display: float;
   float: right;
+}
+
+.li-poster-desc .txt-rating strong::after {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-image: url("../img/별점이미지.png/Star.svg");
+  vertical-align: top;
+  margin-left: 5px;
+  background-size: cover;
 }
 
 .section-movie-list p strong {
@@ -139,3 +170,69 @@ button {
 /* .section-movie-list p:nth-last-of-type(2) {
   margin: 5px 0px;
 } */
+
+.btn-flex {
+  display: flex;
+}
+
+.btn-active {
+  padding: 9px 23px 10px 23px;
+  /* flex-grow: 1; */
+  width: 50%;
+  /* border: 1px solid #bdbdbd; */
+  background-color: inherit;
+  border-top: 1px solid #bdbdbd;
+}
+
+.preview {
+  border-left: 1px solid #bdbdbd;
+}
+
+.preview::before {
+  content: "";
+  display: inline-block;
+  background: url("../img/파이널_코딩테스트_1번_강의자료/아이콘_재생.svg");
+  width: 14px;
+  height: 14px;
+  background-size: cover;
+  vertical-align: top;
+  margin-right: 3px;
+}
+
+.footer img {
+  width: 24px;
+  height: 24px;
+}
+
+.footer section,
+.footer section > ul {
+  display: flex;
+}
+
+.footer section {
+  width: 1190px;
+  justify-content: space-between;
+}
+
+.footer .section-contact::after {
+  content: "";
+  width: 1190px;
+  height: 1px;
+  background-color: #c4c4c4;
+  position: absolute;
+  top: 119px;
+}
+
+.footer .section-info address {
+  display: flex;
+}
+
+.footer .section-info address p ~ p ::before {
+  content: "";
+  width: 2px;
+  height: 10px;
+  background-color: #c4c4c4;
+}
+
+.footer .section-contact h2 {
+}
