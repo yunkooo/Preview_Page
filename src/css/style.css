@@ -40,7 +40,6 @@ button {
 
 #article-movie .section-movie-list {
   width: 1003px;
-  height: 962px;
   overflow: hidden;
   background-color: #fff;
   border-radius: 15px;
@@ -97,6 +96,7 @@ button {
 .section-movie-list ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 24px;
 }
 
 .section-movie-list ul li {
@@ -108,32 +108,32 @@ button {
   overflow: hidden;
 }
 
-.section-movie-list .img-poster {
+.section-movie-list ul li .img-poster {
   width: 180px;
   height: 250px;
   border-radius: 10px;
 }
 
-.section-movie-list .li-poster-desc {
+.section-movie-list ul li .li-poster-desc {
   padding: 19px 20px 10px;
   overflow: hidden;
   background-color: #fff;
 }
 
-.section-movie-list h3 {
+.section-movie-list ul li h3 {
   font-family: "Noto Sans KR";
   font-weight: 900;
   font-size: 1.6rem;
   padding: 11px 0 12px;
 }
 
-.txt-desc {
+.section-movie-list ul li .txt-desc {
   display: flex;
   justify-content: space-between;
   margin: 0;
 }
 
-.section-movie-list p {
+.section-movie-list ul li p {
   font-size: 1.3rem;
   font-weight: 400;
   color: #000;
@@ -141,12 +141,10 @@ button {
 
 .li-poster-desc p {
   margin-bottom: 8px;
-  display: float;
   float: left;
 }
 
 .li-poster-desc .txt-rating {
-  display: float;
   float: right;
 }
 
@@ -167,19 +165,13 @@ button {
   margin-right: 5px;
 }
 
-/* .section-movie-list p:nth-last-of-type(2) {
-  margin: 5px 0px;
-} */
-
 .btn-flex {
   display: flex;
 }
 
 .btn-active {
   padding: 9px 23px 10px 23px;
-  /* flex-grow: 1; */
   width: 50%;
-  /* border: 1px solid #bdbdbd; */
   background-color: inherit;
   border-top: 1px solid #bdbdbd;
 }
@@ -225,14 +217,43 @@ button {
 
 .footer .section-info address {
   display: flex;
+  align-items: center;
 }
 
-.footer .section-info address p ~ p ::before {
+.footer .section-info address p + p::before {
   content: "";
-  width: 2px;
-  height: 10px;
-  background-color: #c4c4c4;
+  display: inline-block;
+  width: 1px;
+  height: 15px;
+  background-color: #4f4f4f;
+  vertical-align: bottom;
+  margin: 0 5px;
 }
 
-.footer .section-contact h2 {
+.footer .section-contact {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+}
+
+.footer .section-contact ul {
+  display: flex;
+  gap: 20px;
+}
+
+.footer .section-info {
+  font-size: 1.4rem;
+  margin-top: 44px;
+  line-height: 1;
+}
+
+.footer .section-info p {
+  font-weight: 400;
+  color: #4f4f4f;
+}
+
+.footer .section-info p > strong {
+  font-weight: 700;
+  color: black;
 }
