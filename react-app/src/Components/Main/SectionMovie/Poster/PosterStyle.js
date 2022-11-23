@@ -32,7 +32,7 @@ export const PosterBtnPreview = styled.button`
   background-color: inherit;
   border-top: 1px solid #bdbdbd;
   border-left: 1px solid #bdbdbd;
-  ::before {
+  &::before {
     content: "";
     display: inline-block;
     background: url(${imgSrc});

@@ -1,6 +1,5 @@
-import PosterImg from "../PosterImg/PosterImg";
-import PosterText from "../PosterText/PosterText.jsx";
-// import { PosterButton, PosterPrButton } from "../PosterButton/PosterButton";
+import PosterImg from "./PosterImg/PosterImg";
+import PosterText from "./PosterText/PosterText";
 import {
   PosterLiStyle,
   PosterDivStyle,
@@ -8,7 +7,6 @@ import {
   PosterBtnStyle,
   PosterBtnPreview,
 } from "./PosterStyle";
-// import "./Poster.css";
 
 export default function Poster({ 제목, 개요, 이미지, 개봉, 출연, 평점 }) {
   return (
