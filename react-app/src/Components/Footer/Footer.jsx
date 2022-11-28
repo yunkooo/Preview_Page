@@ -7,9 +7,9 @@ import {
 } from "./FooterStyle";
 
 export default function Footer() {
-  const twitter = "img/twitter.png";
-  const instagram = "img/instagram.png";
-  const facebook = "img/facebook.png";
+  const twitter = `${process.env.PUBLIC_URL}/img/twitter.png`;
+  const instagram = `${process.env.PUBLIC_URL}/img/instagram.png`;
+  const facebook = `${process.env.PUBLIC_URL}/img/facebook.png`;
   return (
     <FooterStyle>
       <SectionContactStyle>
