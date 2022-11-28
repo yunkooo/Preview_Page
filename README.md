@@ -1,14 +1,15 @@
 # Preview_Page
 
-<img src=".react-app/publick/img/posterImg/0. 파이널 코딩테스트_1번_프리뷰.png">
+<img src="./react-app/public/img/posterImg/0. 파이널 코딩테스트_1번_프리뷰.png">
 <br/>
 <br/>
 
-# 기여자
+# 🧑‍💻 팀원
 
-- 김혜빈 : [@khv2644511](https://github.com/khv2644511)
-- 이윤구 : [@yunkoo](https://github.com/yunkooo)
-- 이재영 :[@GreattitJY](https://github.com/GreattitJY)
+|                                                                                                                                **FE 김혜빈**                                                                                                                                 |                                                              **FE 이윤구**                                                              |                                                               **FE 이재영**                                                                |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                                            <img src="https://avatars.githubusercontent.com/u/38063033?v=4" height=180 width=180>                                                                                             |                          <img src="https://avatars.githubusercontent.com/u/78248971?v=4" height=180 width=180>                          |                           <img src="https://avatars.githubusercontent.com/u/103429329?v=4" height=180 width=180>                           |
+| <a href="https://github.com/khv2644511"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white"/></a> <a href="https://always-hyeppy.tistory.com/"><img src="https://img.shields.io/static/v1?label=&message=Tistory&color=orange"></a> | <a href="https://github.com/yunkooo"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white"/></a> | <a href="https://github.com/GreattitJY"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white"/></a> |
 
 <br/>
 <br/>
