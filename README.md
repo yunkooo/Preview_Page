@@ -60,3 +60,6 @@
 -   React에서 useContext를 사용해 받은 data.js의 img 파일이 제대로 불러와지지 않는 문제 발생 (11월 21일)
 
     -   Solution : React는 JSX 파일의 루트 경로는 public이며, css 파일의 루트 경로는 src 임으로 시작 위치를 제대로 파악하여 경로 설정하였습니다.
+
+---
+## -bu

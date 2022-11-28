@@ -127,11 +127,11 @@ button {
   padding: 11px 0 12px;
 }
 
-.section-movie-list ul li .txt-desc {
+/* .section-movie-list ul li .txt-desc {
   display: flex;
   justify-content: space-between;
   margin: 0;
-}
+} */
 
 .section-movie-list ul li p {
   font-size: 1.3rem;

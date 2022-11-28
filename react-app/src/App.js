@@ -2,7 +2,7 @@ import reset from "styled-reset";
 import { createGlobalStyle } from "styled-components";
 import styled from "styled-components";
 import Main from "./Components/Main/Main";
-
+import Footer from "./Components/Footer/Footer";
 const GlobalStyle = createGlobalStyle`
     ${reset}
     :root {
@@ -29,6 +29,7 @@ function App() {
     <>
       <GlobalStyle />
       <Main />
+      <Footer />
     </>
   );
 }
