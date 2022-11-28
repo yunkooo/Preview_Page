@@ -25,7 +25,7 @@ export const PosterBtnStyle = styled.button`
   background-color: inherit;
   border-top: 1px solid #bdbdbd;
 `;
-export const imgSrc = `./img/posterImg/아이콘_재생.svg`;
+export const imgSrc = `${process.env.PUBLIC_URL}/img/posterImg/아이콘_재생.svg`;
 export const PosterBtnPreview = styled.button`
   padding: 9px 23px 10px 23px;
   width: 50%;
