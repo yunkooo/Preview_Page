@@ -1,6 +1,6 @@
 # Preview_Page
 
-<img src="./react-app/public/img/posterImg/0. 파이널 코딩테스트_1번_프리뷰.png">
+<img src="./public/img/posterImg/0. 파이널 코딩테스트_1번_프리뷰.png">
 <br/>
 <br/>
 

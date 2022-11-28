@@ -31,7 +31,7 @@ export const data = createContext([
   {
     id: 4,
     제목: "파이큐티의 사랑",
-    이미지: "poster_PyQT.png",
+    이미지: "poster_PyQt.png",
     개요: "로맨스",
     평점: 8.81,
     개봉: "2021.04.08",
