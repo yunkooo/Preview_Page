@@ -1,16 +1,16 @@
-import { PageUlStyle } from "./PageUlStyle";
+import { PageUlStyle, PageLinkStyle } from "./PageUlStyle";
 
 export const PageUl = () => {
   return (
     <PageUlStyle>
       <li>
-        <button type="button">현재상영영화</button>
+        <PageLinkStyle to={"/"}>현재상영영화</PageLinkStyle>
       </li>
       <li>
-        <button type="button">개봉예정영화</button>
+        <PageLinkStyle to={"/upcomming"}>개봉예정영화</PageLinkStyle>
       </li>
       <li>
-        <button type="button">박스오피스</button>
+        <PageLinkStyle to={"/boxoffice"}>박스오피스</PageLinkStyle>
       </li>
     </PageUlStyle>
   );
