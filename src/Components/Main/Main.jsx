@@ -1,4 +1,6 @@
 import SectionMovie from "./SectionMovie/SectionMovie";
+import SectionMovieUpcomming from "./SectionMovie/SectionMovieUpcomming";
+import SectionMovieBoxoffice from "./SectionMovie/SectionMovieBoxoffice";
 import { PageUl } from "./Ul/PageUl";
 import { MainStyle } from "./MainStyle";
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
@@ -11,8 +13,8 @@ const Main = () => {
       <PageUl />
       <Routes>
       <Route path="/" element={<SectionMovie />} />
-      <Route path="/upcomming" element={<SectionMovie />} />
-      <Route path="/boxoffice" element={<SectionMovie />} />
+      <Route path="/upcomming" element={<SectionMovieUpcomming />} />
+      <Route path="/boxoffice" element={<SectionMovieBoxoffice />} />
       </Routes>
     </MainStyle>
     </BrowserRouter>
